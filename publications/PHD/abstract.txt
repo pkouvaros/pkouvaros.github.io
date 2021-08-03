@@ -1,0 +1,10 @@
+In the past ten years several methods have been put forward for the efficient model checking of multiagent systems  against agent-based
+specifications. Yet, since the number of states is exponential in the number of agents in the system, the model checking problem remains intractable for systems of many agents.  This is particularly problematic when wishing to reason about unbounded systems  where the number of components is not known at design time. Systems ranging from robotic swarms to e-commerce applications constitute typical examples  in which the number of participants is independent of the design process. 
+
+
+This thesis develops parameterised model checking techniques for the validation of multiagent systems irrespectively of the number of the agents present. To do this, a semantics that captures parameterised, synchronous multiagent systems and one that models parameterised, interleaved  multiagent systems are introduced.  Both semantics extend interpreted systems in a parameterised setting where the number of agents is the parameter. 
+
+Parameterised model checking techniques for the semantical classes introduced are developed. A sound and complete cutoff methodology is studied for parameterised interpreted systems. A sound but incomplete cutoff procedure for parameterised interleaved interpreted systems is also studied.  While the latter procedure  is in exponential space, three notable subclasses are isolated and more effective verification techniques are put forward.  The algorithms proposed are shown to be sound. For one class the decidability of the verification problem is shown and a complete cutoff procedure is discussed.
+
+Finally, the model checker MCMAS-P is introduced. The tool supports the verification of unbounded multiagent systems against temporal-epistemic specifications. MCMAS-P implements the procedures here developed; the procedure invoked depends  on the properties of the system under examination.  Experimental results obtained on cache coherence protocols, mutual exclusion protocols, swarm foraging algorithms, and swarm aggregation algorithms are reported. 
+

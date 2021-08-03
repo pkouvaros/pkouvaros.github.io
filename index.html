@@ -1,0 +1,535 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Panagiotis Kouvaros</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+	
+<body class="homepage">
+
+
+
+<!-- *********************************************************************
+			Navigation
+     *******************************************************************-->
+<nav class="navbar  navbar-expand-lg navbar-light fixed-top" id="main-nav">	  	
+<div class="container-fluid">
+<div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse"
+		data-target="#pk-navbar">
+		<span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+	</button>
+	<a class="navbar-brand" href="https://www.doc.ic.ac.uk/~pk3510">
+		Panagiotis Kouvaros </a>
+</div>
+<div  class="collapse navbar-collapse" id="pk-navbar">
+	<ul class="nav navbar-nav">
+		<li>
+        	<a class="js-scroll-trigger" id="m-about" href="#about">About
+				me</a>
+		</li>
+		<li>
+        	<a class="js-scroll-trigger" href="#research">Research</a>
+		</li>
+		<li>
+        	<a class="js-scroll-trigger" id="m-publications"
+				href="#publications">Publications</a>
+		</li>
+		<!--<li class="dropdown">-->
+			<!--<a id="m-publications" class="dropdown-toggle"-->
+						  <!--data-toggle="dropdown" href="#">Publications-->
+						  <!--<span-->
+<!--class="caret"></span> </a>-->
+			<!--<ul class="dropdown-menu" id="dropdown-menu">-->
+                  <!--<li><a class="js-scroll-trigger" href="#publications">2020</a></li>-->
+                  <!--<li><a class="js-scroll-trigger" href="#pubs-2019">2019</a></li>-->
+                  <!--<li><a class="js-scroll-trigger" href="#pubs-2018">2018</a></li>-->
+                  <!--<li><a class="js-scroll-trigger" href="#pubs-2017">2017</a></li>-->
+                  <!--<li><a class="js-scroll-trigger" href="#pubs-2016">2016</a></li>-->
+                  <!--<li><a class="js-scroll-trigger" href="#pubs-2015">2015</a></li>-->
+                  <!--<li><a class="js-scroll-trigger" href="#pubs-2013">2013</a></li>-->
+            <!--</ul>-->
+		<!--</li>-->
+		<li>
+        	<a class="js-scroll-trigger" href="#software">Software</a>
+		</li>
+		<li>
+        	<a class="js-scroll-trigger" href="#service">Service & Teaching</a>
+		</li>
+		<li>
+        	<a class="js-scroll-trigger" href="#footer">Contact</a>
+		</li>
+	</ul>
+</div> <!-- navbar -->
+</div> <!-- container -->
+</nav>
+
+<div class="sections">
+
+
+<!-- *********************************************************************
+			About
+     *******************************************************************-->
+<div class="container-fluid" id="about">
+<header> <h1> About me </h1> </header>
+<div class="container-fluid row">
+
+<div class="column">
+<img src="images/pk.png" alt="Panagiotis Kouvaros">
+</div>
+<div class="column">
+	I am a Researcher  working within the <a
+href="https://www.imperial.ac.uk/computing">Department of Computing,
+Imperial College London</a>. My research concerns the  logic-based
+verification of learning-enabled cyber-physical systems for the purposes of 
+the <a href= "https://www.darpa.mil/program/assured-autonomy">DARPA Assured
+Autonomy Program.</a>
+	<br />	<br />	
+	Previously I worked on the formal verification of the communication
+protocols driving the H2020 FET project <a
+href="http://www.visorsurf.eu/">VISORSURF</a>.	
+	<br /><br />
+	 Before that I was a Research Fellow at the
+Department of Computing, Imperial College London, where I put forward
+parameterised verification techniques for robot swarms.	
+	<br /> <br />
+	Prior to that I was a PhD student at the same department where I
+	developed parameterised verification techniques for multiagent systems. 
+</div>
+</div>
+</div>
+
+
+<!-- *********************************************************************
+			Research
+     *******************************************************************-->
+<div class="container-fluid" id="research">
+<header> <h1>Research</h1> </header>
+<div class="container-fluid row">
+
+
+<div class="column">
+	I am interested in <strong> safe Artificial Intelligence. </strong>
+	Towards this I develop <strong> formal methods </strong> to assess
+the <strong> safety </strong> and <strong> robustness </strong> of
+autonomous systems. 
+	<br><br>
+	Typically autonomous systems are driven by <strong> learning-enabled
+components </strong> whose model of behaviour is extrapolated from a set of
+data instantiating the correct action to be taken given the state of the
+environment. Part of my research builds procedures to analyse the
+correctness of said components on previously unseen states of the
+environment.
+</div>
+<div class="column">
+	Often autonomous systems are composed of (arbitrarily large) groups of
+agents that interact between them and their environment to either achieve a
+global objective or realise a personal goal. Part of my work aims at
+analysing the <strong> temporal and epistemic evolution </strong> of the
+agents with the development of <strong> (parameterised) model checking
+</strong> techniques. Additionally it targets the identification of
+<strong> emergent behaviours </strong> the systems may display.
+</div>
+</div>
+</div>
+
+
+<!-- *********************************************************************
+			Publications
+     *******************************************************************-->
+<div class="container-fluid" id="publications">
+	<header> <h1>Publications</h1> </header>
+
+
+	<div class="pub-year" id="pubs-2021">
+	<h3 class="pub-year-header"> 2021 </h3>
+	<div class="pub-year-container">
+
+	<div class="pub-item">
+		<a href="publications/IJCAI21-KL/paper.pdf">
+		Towards Scalable Complete Verification of ReLU Neural Networks via
+		Dependency-based Branching.
+		</a>
+		Panagiotis Kouvaros, Alessio Lomuscio.
+		<em>Proceedings of
+			the 30th International Joint Conference on Artificial
+			Intelligence (<strong>IJCAI21</strong>).</em>  
+    </div>
+	<div class="pub-item">
+		<!--<a href="publications/IJCAI21-BKZL/paper.pdf">-->
+		Efficient Neural Network Verification via Layer-based Semidefinite
+		Relaxations and Linear Cuts.
+		<!--</a>-->
+		Ben Batten, Panagiotis Kouvaros, Alessio Lomuscio, Yang Zheng.
+		<em>Proceedings of
+			the 30th International Joint Conference on Artificial
+			Intelligence (<strong>IJCAI21</strong>).</em>  To appear.	
+    </div>
+	</div>
+	</div>
+
+
+
+
+
+	<div class="pub-year" id="pubs-2020">
+	<h3 class="pub-year-header"> 2020 </h3>
+	<div class="pub-year-container">
+
+	<div class="pub-item">
+		<a href="publications/KR20-ABKL/paper.pdf">
+		Verifying Strategic Abilities of Neural-symbolic Multi-agent Systems. 
+		</a> 
+		Michael Akintunde, Elena Botoeva, Panagiotis
+		Kouvaros, Alessio Lomuscio.
+		<em>Proceedings of
+			the 17th International Conference on Principles of Knowledge
+			Representation and Reasoning (<strong>KR20</strong>).</em> 
+    </div>
+	<div class="pub-item">
+		<a href="publications/AAMAS20-A+/paper.pdf">
+		Formal Verification of Neural Agents in Non-determenistic
+		Environments. </a> Michael Akintunde, Elena Botoeva, Panagiotis
+		Kouvaros, Alessio Lomuscio.
+		<em>Proceedings of
+			the 19th International Conference on Autonomous Agents and
+			Multi-Agent Systems (<strong>AAMAS20</strong>).</em> 
+    </div>
+	<div class="pub-item">
+		<a href="publications/AAAI20-B+/paper.pdf"> Efficient Verification
+			of ReLU-based Neural Networks via Dependency Analysis.</a>
+		Elena Botoeva, Panagiotis Kouvaros, Jan Kronqvist, Alessio
+		Lomuscio, Ruth Misener. <em>Proceedings of the 34th AAAI Conference
+			on Artificial Intelligence (<strong>AAAI20</strong>).</em> 
+    </div>
+	</div>
+	</div>
+
+
+
+	<div class="pub-year" id="pubs-2019">
+	<h3 class="pub-year-header"> 2019 </h3>
+	<div class="pub-year-container">
+	<div class="pub-item">
+		<a href="publications/AAMAS19-K+/paper.pdf">Formal Verification of
+			Open Multi-Agent Systems.</a> Panagiotis Kouvaros, Alessio
+		Lomuscio, Edoardo Pirovano, Hashan Punchihewa. <em>Proceedings of
+			the 18th International Conference Autonomous Agents and
+			Multi-Agent Systems (<strong>AAMAS19</strong>), p.
+			179-187.</em> IFAAMAS Press.
+    </div>
+	</div>
+	</div>
+
+	<div class="pub-year" id="pubs-2018">
+	<h3 class="pub-year-header"> 2018 </h3>
+	<div class="pub-year-container">
+	<div class="pub-item">
+		<a href="publications/FMICS18-K+/paper.pdf">Formal Verification of
+a Programmable Hypersurface.</a> Panagiotis Kouvaros, Dimitrios Kouzapas,
+Anna Philippou, Julio Georgiou, Andreas Pitsillides. <em>Proceedings of the
+23rd International Conference on Formal Methods for Industrial Critical
+Systems (<strong>FMICS18</strong>), p.  83-97.</em> Springer.
+    </div>
+    <div class="pub-item">
+	<a href="publications/IJCAI18-KLP/paper.pdf">Symbolic Synthesis of
+Fault-Tolerance Ratios in Parameterised Multi-Agent Systems.</a> Panagiotis
+Kouvaros, Alessio Lomuscio, Edoardo Pirovano. <em>Proceedings of the 27th
+International Joint Conference on Artificial Intelligence
+(<strong>IJCAI18</strong>), p. 324-330.</em>  AAAI Press.
+	</div>
+	</div>
+	</div>
+						
+	<div class="pub-year" id = "pubs-2017">
+	<h3 class="pub-year-header"> 2017 </h3>
+	<div class="pub-year-container">
+	<div class="pub-item" >
+		Towards the Formal Verification of Correctness and
+Robustness of Robot Swarms (Invited Talk). Panagiotis Kouvaros, Alessio
+Lomuscio. <em>Proceedings of the 18th Italian Conference on Theoretical
+Computer Science and the 32nd Italian Conference on Computational Logic
+<strong>(ICTCS17)</strong>.</em>
+	</div>
+	<div class="pub-item">
+		<a href="publications/IJCAI17-KL/paper.pdf"> Verifying
+Fault-tolerance in Parameterised Multi-Agent Systems.</a> Panagiotis
+Kouvaros, Alessio Lomuscio. <em>Proceedings of the 26th International Joint
+Conference on Artificial Intelligence <strong>(IJCAI17)</strong>,
+p.288-294.</em> AAAI Press.
+	</div>
+    <div class="pub-item">
+		<a href="publications/IJCAI17-BKL/paper.pdf">Parameterised
+Verification of Data-aware Multi-agent Systems.</a> Francesco Belardinelli,
+Panagiotis Kouvaros, Alessio Lomuscio.  <em>Proceedings of the 26th
+International Joint Conference on Artificial Intelligence
+<strong>(IJCAI17)</strong>, p. 98-104.</em> AAAI Press.
+	</div>
+    <div class="pub-item">
+		<a href="publications/AAAI17-KL/paper.pdf">Parameterised
+Verification of Infinite State Multi-Agent Systems via Predicate
+Abstraction.</a> Panagiotis Kouvaros, Alessio Lomuscio. <em>Proceedings of
+the 31st AAAI Conference on Artificial Intelligence
+<strong>(AAAI17)</strong>, p. 3013-3020.</em> AAAI Press.
+	</div>
+	</div>
+	</div>
+				
+	<div class="pub-year" id = "pubs-2016">
+	<h3 class="pub-year-header"> 2016 </h3>
+	<div class="pub-year-container">
+    <div class="pub-item">
+		<a href="publications/ECAI16-KL/paper.pdf">Parameterised Model
+Checking for Alternating-Time Temporal Logic.</a> Panagiotis Kouvaros,
+Alessio Lomuscio. <em>Proceedings of the 22nd European Conference on
+Artificial Intelligence <strong>(ECAI16)</strong>, p.  1230-1238.</em> IOS
+Press.
+	</div>
+	<div class="pub-item">
+		<a href="publications/PHD/kouvaros_phd.pdf">Parameterised
+Verification for Multi-Agent Systems.</a> Panagiotis Kouvaros.
+<em><strong>PhD Thesis</strong>.</em> Imperial College London.
+	</div>
+	<div class="pub-item">
+	<a href="publications/AAMAS16-KL/paper.pdf">Formal Verification of
+Opinion Formation in Swarms.</a> Panagiotis Kouvaros, Alessio Lomuscio.
+<em>Proceedings of the 15th International Conference on Autonomous Agents
+and Multi-Agent Systems <strong>(AAMAS16)</strong>, p. 1200-1209.</em>
+IFAAMAS Press.
+	</div>
+    <div class="pub-item">
+		<a href="publications/AAMAS16-BKL/paper.pdf">Verifying Security
+Properties in Unbounded Multi-Agent Systems.</a> Ioana Boureanu, Panagiotis
+Kouvaros, Alessio Lomuscio. <em>Proceedings of the 15th International
+Conference on Autonomous Agents and Multi-Agent Systems
+<strong>(AAMAS16)</strong>, p.1209-1218.</em> IFAAMAS Press.
+	</div>
+    <div class="pub-item">
+		<a
+		 href="https://www.sciencedirect.com/science/article/pii/S0004370216000151">Parameterised
+		 Verification for Multi-Agent Systems.</a> Panagiotis Kouvaros,
+	 Alessio Lomuscio. <em> <strong>Artificial Intelligence</strong>, 234,
+		 p. 152-189.</em> Elsevier.
+	</div>
+	</div>
+	</div>
+
+	<div class="pub-year" id="pubs-2015">
+	<h3 class="pub-year-header"> 2015 </h3>
+	<div class="pub-year-container">
+    <div class="pub-item">
+		<a href="publications/IJCAI15-KL/paper.pdf">Verifying Emergent
+Properties of Swarms.</a>Panagiotis Kouvaros, Alessio Lomuscio.
+<em>Proceedings of the 24th International Joint Conference on Artificial
+Intelligence <strong>(IJCAI15)</strong>, p. 1083-1089</em> AAAI Press.
+	</div>
+     <div class="pub-item">
+		<a href="publications/AAAI15-KL/paper.pdf">A Counter Abstraction
+Technique for the Verification of Robot Swarms.</a> Panagiotis Kouvaros,
+Alessio Lomuscio. <em>Proceedings of the 29th AAAI Conference on Artificial
+Intelligence <strong>(AAAI15)</strong>, p. 2081-2088.</em> AAAI Press.
+	</div>
+	</div>
+	</div>
+	
+	<div class="pub-year" id="pubs-2013">
+	<h3 class="pub-year-header"> 2013 </h3>
+	<div class="pub-year-container">
+    <div class="pub-item">
+		<a href="publications/IJCAI13-KL/paper.pdf">A Cutoff Technique for
+the Verification of Parameterised Interpreted Systems with Parameterised
+Environments.</a> Panagiotis Kouvaros, Alessio Lomuscio. <em>Proceedings of
+the 23th International Joint Conference on Artificial Intelligence
+<strong>(IJCAI13)</strong>, p.  2013-2019.</em> AAAI Press.
+	</div>
+    <div class="pub-item">
+		<a href="publications/AAMAS13-KL/paper.pdf">Automatic Verification
+of Parameterised Interleaved Multi-Agent Systems.</a> Panagiotis Kouvaros,
+Alessio Lomuscio. <em> Proceedings of the 12th International Conference on
+Autonomous Agents and Multi-Agent Systems <strong>(AAMAS13)</strong>, p.
+861-868.</em> IFAAMAS Press.
+	</div>
+	</div>
+	</div>						
+</div>
+
+
+<!-- *********************************************************************
+			Software
+     *******************************************************************-->
+<div class="container-fluid" id="software">
+<header> <h1>Software</h1> </header>
+
+<div class="container-fluid row">
+<header> <h2> VENUS </h2> </header>
+
+<div class="column">
+	<img src="images/venus.png" alt="VENUS">
+</div>
+<div class="column">
+	<strong>V</strong>erification of
+		<strong>N</strong>e<strong>U</strong>ral <strong>S</strong>ystems
+				(VENUS) is a state-of-the-art sound and
+complete verification toolkit for Relu-based feed-forward neural networks.
+It can be used to check reachability and local adversarial robustness
+properties.
+<br><br>
+VENUS implements a MILP-based verification method  whereby it leverages
+dependency relations between the ReLU nodes to reduce the search space that
+needs to be considered during branch-and-bound. It additionally implements
+methods based on symbolic interval propagation and input domain splitting.
+<br><br>
+VENUS is available for download from <a
+href="https://vas.doc.ic.ac.uk/software/neural/">here</a>.
+</div>
+</div>
+<div class="container-fluid row">
+<header> <h2> MCMAS-P </h2> </header>
+
+<div class="column">
+	<img src="images/pispl.png" alt="MCMAS-P Input Language">
+</div>
+<div class="column">
+	<strong>	MCMAS-P </strong> is a model checker for the verification of 
+multi-agent systems composed of arbitrarily many agents.
+	It takes as input multi-agent systems described in <a
+	 href="https://www.sciencedirect.com/science/article/pii/S0004370216000151">
+		Parameterised Interleaved Interpreted Systems (PIIS)</a> and
+	implements cutoff and abstraction techniques to solve their
+	parameterised verification problem. 
+	<br><br>
+	MCMAS-P's main procedure is based on an incomplete counter abstraction
+	method.
+	Given the procedure is in exponential space, MCMAS-P additionally
+	implements  more effective cutoff-based methods for a number of
+	fragments of PIIS.
+	<br><br>
+	MCMAS-P is available for download from <a
+		href="https://vas.doc.ic.ac.uk/software/mcmas-extensions/">here</a>.
+</div>
+</div>
+
+</div>
+
+<!-- *********************************************************************
+			Service & Teaching
+     *******************************************************************-->
+<div class="container-fluid" id="service"> 
+<div class="container-fluid row">
+<div class="column">
+<header> <h1>Service</h1> </header> 
+<ul>
+
+	<li> PC Member, <strong> NeurIPS 2021</strong>, <em> 35th Annual
+			Conference on Neural Information Processing Systems</em>.</li>
+	<li> PC Member, <strong> PAAMS 2021</strong>, <em> 19th International
+			Conference on Practical Applications of Agents and Multi-Agents
+			Systems</em>.</li>
+	<li> SPC Member, <strong>IJCAI 2021</strong>, <em>30th International
+Joint Conference on Artificial Intelligence</em>.</li>
+	<li> PC Member, <strong>AAAI 2021</strong>, <em>35th AAAI
+Conference on Artificial Intelligence</em>.</li>
+	<li> PC Member, <strong> NeurIPS 2020</strong>, <em> 34th Annual
+			Conference on Neural Information Processing Systems</em>.</li>
+	<li> PC Member, <strong>AAMAS 2020</strong>, <em>19th International
+Conference on Autonomous Agents and Multiagent Systems</em>.</li>
+	<li> SPC Member, <strong>AAAI 2020</strong>, <em>34th AAAI
+Conference on Artificial Intelligence</em>.</li>
+	<li> PC Member, <strong>AAMAS 2019</strong>, <em>18th International
+Conference on Autonomous Agents and Multiagent Systems</em>.</li>
+	<li> PC Member, <strong>AAAI 2019</strong>, <em> 33rd AAAI Conference
+on Artificial Intelligence</em>.</li>
+	<li> PC Member, <strong>AAMAS 2018</strong>, <em> 17th International
+Conference on Autonomous Agents and Multiagent Systems</em>.</li>
+	<li> PC Member, <strong>AAAI 2018</strong>, <em> 32rd AAAI Conference
+on Artificial Intelligence</em>.</li>
+	<li> PC Member, <strong>IJCAI 2017</strong>, <em> 26th International
+Joint Conference on Artificial Intelligence</em>.</li>
+	<li> PC Member, <strong>AAAI 2017</strong>, <em> 31rd AAAI Conference
+			on Artificial Intelligence</em>.</li>
+	<li> PC Member, <strong>ECAI 2016</strong>, <em> 22nd European
+			Conference  on Artificial Intelligence</em>.</li>
+</ul>
+</div>
+<div class="column">
+<header> <h1>Teaching</h1> </header> 
+<ul>
+<li> Guest Lecturer, <strong> Systems Verification</strong>, <em>Department of Computing, Imperial College
+		London</em>, 2020.</li>
+<li> Guest Lecturer, <strong> Model-Based Techniques for Safe and Trusted
+		AI</strong>, <em>Department of Computing, Imperial College
+		London</em>, 2020.</li>
+<li> Lecturer, <strong> Data Structures and Algorithms</strong>, <em>Department of
+Electrical and Computer Engineering, University of Cyprus</em>, 2017-2018.</li>
+<li>  Lecturer, <strong> Computer Science and Information Systems</strong>,
+<em>Department of Computer Science, University of Cyprus</em>, 2017-2018.</li>
+<li>  Guest Lecturer,<strong> Systems Verification</strong>,
+	<em>Department of Computing, Imperial College London</em>,
+	2017.</li>
+<li> Tutor, <strong> Systems Verification</strong>, <em> Department of
+	Computing, Imperial College London</em>, 2016-2017.
+<li> Tutor, <strong> Systems Verification</strong>, <em> Department of
+	Computing, Imperial College London</em>, 2015-2016.
+<li> Tutor, <strong> Modal and Temporal Logic</strong>, <em> Department of
+	Computing, Imperial College London</em>, 2015-2016.
+<li> Tutor, <strong> Modal and Temporal Logic</strong>, <em> Department of
+	Computing, Imperial College London</em>, 2014-2015.
+</ul>
+</div>
+</div>
+</div>
+
+</div> <!-- sections -->
+
+<!-- *********************************************************************
+			Contact
+	 *******************************************************************-->
+
+<div id="footer">
+<div id="contact">
+<header> <h1>Contact</h1> </header>
+<div>
+<br>
+Department of Computing <br>
+Room 554, Huxley Building <br>
+180 Queen's Gate <br>
+Imperial College London <br>
+London SW7 2AZ <br> <br>
+Email: p.kouvaros[at]imperial.ac.uk	
+</div>
+</div>
+<div id="cw">
+&copy; 2019 Panagiotis Kouvaros
+</div>
+</div>
+
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Waypoints -->
+<script src="js/noframework.waypoints.min.js"></script>
+
+<!-- Custom js -->
+<script src="js/pk.js"></script>
+
+</body>
+
+
+</html>
