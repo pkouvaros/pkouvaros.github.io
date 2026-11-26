@@ -762,5 +762,14 @@ Email: pkouvaros[at]uol.ac.cy
 
 </body>
 
+<link rel="stylesheet" href="https://vdk-viber-runtime-prod.bot.botpress.host/edge/webchat.css" />
+<script src="https://vdk-viber-runtime-prod.bot.botpress.host/edge/webchat.js"></script>
+<script>
+  fetch("https://vdk-viber-runtime-prod.bot.botpress.host/edge/bots/a9c32fa0-214e-46f9-8241-937f9a0b5c77/config")
+    .then((res) => res.json())
+    .then(({ webchat }) =>
+      VdkEdgeWebchat.mount({ ...webchat, mode: "bubble", baseUrl: "https://vdk-viber-runtime-prod.bot.botpress.host", botId: "a9c32fa0-214e-46f9-8241-937f9a0b5c77" })
+    )
+</script>
 
 </html>
